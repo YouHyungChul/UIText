@@ -7,14 +7,24 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/images_01"
+        android:scaleType="center"/>
+
+
+
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="#aa88ff"
     android:text="아이디"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:gravity="right"/>
 
     <TextView
         android:layout_width="wrap_content"
